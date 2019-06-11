@@ -1,8 +1,8 @@
-#include "ESP8266WiFi.h"
-#include "WiFiClient.h"
-#include "ESP8266WebServer.h"
+#include <ESP8266WiFi.h>
+#include <WiFiClient.h>
+#include <ESP8266WebServer.h>
 
-#include "page.h"
+#include <page.h>
 
 const char* ssid = "Pandey's Server";//server name here
 const char* password = "12345678";//password here
